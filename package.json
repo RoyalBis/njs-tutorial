@@ -1,6 +1,9 @@
 {
   "name": "njs-tutorial",
   "version": "1.0.0",
+  "dependencies": {
+    "d3":"3"
+  },
   "description": "node-js-server-tutorial",
   "main": "index.js",
   "scripts": {

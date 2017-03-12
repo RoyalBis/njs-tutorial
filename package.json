@@ -1,0 +1,21 @@
+{
+  "name": "njs-tutorial",
+  "version": "1.0.0",
+  "description": "node-js-server-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "deploy": "pm2 deploy ecosystem.config.js production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoyalBis/njs-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoyalBis/njs-tutorial/issues"
+  },
+  "homepage": "https://github.com/RoyalBis/njs-tutorial#readme"
+}
